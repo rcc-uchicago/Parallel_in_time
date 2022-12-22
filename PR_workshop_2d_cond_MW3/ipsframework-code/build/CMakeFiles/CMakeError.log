@@ -1,0 +1,49 @@
+Performing C SOURCE FILE Test TM_IN_SYS_TIME failed with the following output:
+Change Dir: /home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/bin/gmake "cmTryCompileExec3348871001/fast"
+/bin/gmake -f CMakeFiles/cmTryCompileExec3348871001.dir/build.make CMakeFiles/cmTryCompileExec3348871001.dir/build
+gmake[1]: Entering directory `/home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3348871001.dir/src.c.o
+/bin/cc   -DTM_IN_SYS_TIME   -o CMakeFiles/cmTryCompileExec3348871001.dir/src.c.o   -c /home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp/src.c
+/home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp/src.c:2:44: error: storage size of ‘tm’ isn’t known
+ int main(int argc, char** argv) {struct tm tm;int *p = &tm.tm_sec;return !p;}
+                                            ^
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3348871001.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3348871001/fast] Error 2
+
+Source file was:
+#include <sys/time.h>
+int main(int argc, char** argv) {struct tm tm;int *p = &tm.tm_sec;return !p;}
+Performing C++ SOURCE FILE Test AVX512_COMPILES failed with the following output:
+Change Dir: /home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/bin/gmake "cmTryCompileExec2684205709/fast"
+/bin/gmake -f CMakeFiles/cmTryCompileExec2684205709.dir/build.make CMakeFiles/cmTryCompileExec2684205709.dir/build
+gmake[1]: Entering directory `/home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2684205709.dir/src.cxx.o
+/bin/c++    -pipe  -std=c++11 -Wno-deprecated-declarations -Werror=return-type -DAVX512_COMPILES  -mavx   -o CMakeFiles/cmTryCompileExec2684205709.dir/src.cxx.o -c /home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp/src.cxx
+/home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp/src.cxx:5:3: error: ‘__m512d’ was not declared in this scope
+   __m512d t = _mm512_load_pd(a);
+   ^
+/home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp/src.cxx:5:11: error: expected ‘;’ before ‘t’
+   __m512d t = _mm512_load_pd(a);
+           ^
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2684205709.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/dsamadd/ipsframework-code/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2684205709/fast] Error 2
+
+Source file was:
+
+#include <immintrin.h>
+int main(int argc, char** argv) {
+  double a[8] = {1., 2., 3., 4., 5., 6., 7., 8.};
+  __m512d t = _mm512_load_pd(a);
+  return 0;
+}
+

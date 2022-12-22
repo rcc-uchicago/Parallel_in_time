@@ -1,0 +1,19 @@
+Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeded with the following output:
+Change Dir: /home/dsamadd/ipsframework-code/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+
+Run Build Command:/bin/gmake "cmTryCompileExec2069233672/fast"
+/bin/gmake -f CMakeFiles/cmTryCompileExec2069233672.dir/build.make CMakeFiles/cmTryCompileExec2069233672.dir/build
+gmake[1]: Entering directory `/home/dsamadd/ipsframework-code/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dsamadd/ipsframework-code/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2069233672.dir/src.c.o
+/bin/cc   -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTryCompileExec2069233672.dir/src.c.o   -c /home/dsamadd/ipsframework-code/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2069233672
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2069233672.dir/link.txt --verbose=1
+/bin/cc   -DC_SUPPORTS_DOLLAR    CMakeFiles/cmTryCompileExec2069233672.dir/src.c.o  -o cmTryCompileExec2069233672 -rdynamic 
+gmake[1]: Leaving directory `/home/dsamadd/ipsframework-code/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+extern int dollar$(void);
+int main() { return 0; }
+

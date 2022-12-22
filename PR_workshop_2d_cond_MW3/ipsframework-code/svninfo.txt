@@ -1,0 +1,12 @@
+Path: .
+Working Copy Root Path: /home/dsamadd/ipsframework-code
+URL: https://svn.code.sf.net/p/ipsframework/code/trunk
+Repository Root: https://svn.code.sf.net/p/ipsframework/code
+Repository UUID: ed2ff44e-3bad-47df-acac-40d95bfd9e26
+Revision: 222
+Node Kind: directory
+Schedule: normal
+Last Changed Author: welwasif
+Last Changed Rev: 222
+Last Changed Date: 2017-07-21 21:34:19 +0100 (Fri, 21 Jul 2017)
+

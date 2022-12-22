@@ -1,0 +1,1 @@
+/home/dsamadd/ipsframework-code/tests/dakota/test_ips_without_platform.sh

@@ -1,0 +1,12 @@
+Path: .
+Working Copy Root Path: /home/dsamadd/ipsframework-code/scimake
+URL: http://svn.code.sf.net/p/scimake/code/trunk
+Repository Root: http://svn.code.sf.net/p/scimake/code
+Repository UUID: 434544a9-db1a-435d-8fc3-921d985601d6
+Revision: 849
+Node Kind: directory
+Schedule: normal
+Last Changed Author: jrobcary
+Last Changed Rev: 848
+Last Changed Date: 2015-07-14 19:33:02 +0100 (Tue, 14 Jul 2015)
+

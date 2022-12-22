@@ -1,0 +1,5 @@
+2022-12-22 12:59:15,584 FRAMEWORK       WARNING  Missing INIT specification in config file for simulation 2D_COND_ITER_20_20
+2022-12-22 12:59:15,919 FRAMEWORK       WARNING  RM: listOfNodes = [('midway3-0172', 2)]
+2022-12-22 12:59:15,919 FRAMEWORK       WARNING  RM: max_ppn = 2 
+2022-12-22 12:59:15,919 FRAMEWORK       WARNING  Using user set procs per node: 2
+2022-12-22 12:59:15,919 FRAMEWORK       WARNING  RM: 1 nodes and 2 processors per node

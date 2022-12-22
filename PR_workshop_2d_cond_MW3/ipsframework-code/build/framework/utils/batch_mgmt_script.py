@@ -1,0 +1,1 @@
+/home/dsamadd/ipsframework-code/framework/utils/batch_mgmt_script.py

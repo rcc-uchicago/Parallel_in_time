@@ -1,0 +1,1 @@
+/bin/cc  -O3 -DNDEBUG -msse2    -Wl,-rpath,/usr/lib/gcc/x86_64-redhat-linux/4.8.2 CMakeFiles/serial_sleep.dir/serial_sleep.c.o  -o serial_sleep -rdynamic 

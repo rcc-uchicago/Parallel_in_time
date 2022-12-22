@@ -1,0 +1,36 @@
+# host: my_laptop
+# total nodes: 1
+# processors per node: 2
+using accurate nodes: True
+# time (in seconds since the | available | allocated | percent allocated | processes | percent used | notes 
+#   resource manager started |           |           |                   |           |              |
+#-----------------------------------------------------------------------------------------------------------
+                     0.42021 |         2 |         0 |              0.00 |         0 |        0.00  #  initial state of resources
+                     1.48758 |         1 |         1 |             50.00 |         1 |       50.00  #  allocation for task 1 using partial nodes
+                     1.70579 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 2 using partial nodes
+                    39.80235 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 1
+                    39.94037 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 3 using partial nodes
+                    78.41684 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 3
+                    78.46368 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 320 using partial nodes
+                   324.04038 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 2
+                   324.12517 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 4315 using partial nodes
+                   362.82170 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 4315
+                   362.92048 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 4634 using partial nodes
+                   401.37210 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 320
+                   401.38178 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 5260 using partial nodes
+                   439.97232 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 5260
+                   440.00569 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 5893 using partial nodes
+                   685.85057 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 4634
+                   685.86403 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 9921 using partial nodes
+                   724.41617 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 9921
+                   724.49140 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 10238 using partial nodes
+                   780.60050 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 5893
+                   780.72142 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 11158 using partial nodes
+                   819.31779 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 11158
+                   819.35704 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 11475 using partial nodes
+                  1047.25801 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 10238
+                  1047.39083 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 13344 using partial nodes
+                  1141.21807 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 11475
+                  1141.27190 |         0 |         2 |            100.00 |         2 |      100.00  #  allocation for task 14114 using partial nodes
+                  1180.19636 |         1 |         1 |             50.00 |         1 |       50.00  #  released nodes for task 14114
+                  1370.19176 |         2 |         0 |              0.00 |         0 |        0.00  #  released nodes for task 13344
